@@ -1,0 +1,100 @@
+.page{
+  background-color:#d07fff;
+}
+h1{
+   text-align:center;
+   margin-top: 1cm;
+   font-size: xx-large;
+   color: cornsilk;
+   background-color:indigo;
+   font-family: 'Times New Roman', Times, serif;
+  
+}
+  .column {
+    border: 2px solid black;
+    background-color:blueviolet;
+    padding-left: 5px;
+
+  }
+  .row {
+        padding-left: 5%;
+        width: 100%;
+  }
+  #h {
+     float: right;
+     padding-right: 1em;
+     font-size: 1.5em;
+     border: 2px solid black;
+     font-family: 'Times New Roman', Times, serif;
+     border-right: 0px;
+     margin-top: 0px;
+     border-top: 0px;
+  
+  }
+
+  h2{
+      background-color:darkmagenta;
+    }
+  h3{
+      background-color: rgb(5, 52, 140);
+      color: aliceblue;
+    }
+  h4{
+      background-color:deeppink;
+    }
+p{
+  font-size: 1em;
+  font-weight:bolder;
+  margin-top: 1cm;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 0.5cm;
+}
+.sec1 {width: 8.33%;}
+.sec2 {width: 16.66%;}
+.sec3 {width: 25%;}
+.sec4 {width: 33.33%;}
+.sec5 {width: 41.66%;}
+.sec6 {width: 50%;}
+.sec7 {width: 58.33%;}
+.sec8 {width: 66.66%;}
+.sec9 {width: 75%;}
+.sec10 {width: 83.33%;}
+.sec11 {width: 91.66%;}
+.sec12 {width: 100%;}
+
+  @media(max-width:766px){
+    .sec-1,.sec-2,.sec-3{
+      float: left;
+      width: 100%;
+      padding-bottom: 5%;
+    }
+    }
+
+  
+  @media(min-width:767px)and (max-width:992px){
+      .sec-1,.sec-2,.sec-3{
+      float: left;
+      padding-bottom: 5%;
+      padding-right: 5%;
+    }
+      .sec-1{
+        width: 50%;
+      }
+      .sec-2{
+        
+        width: 50%;
+      }
+      .sec-3{
+        width: 100%;
+      }
+
+  }
+  @media (min-width:993px){
+    .sec-1,.sec-2,.sec-3{
+      float: left;
+      padding-bottom: 5%;
+      padding-right: 4%;
+      width: 33.3%;
+    }
+  
+  }
